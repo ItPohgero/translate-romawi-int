@@ -1,0 +1,27 @@
+{
+  "name": "translate-romawi-int",
+  "version": "1.0.0",
+  "description": "translate angka romawi ke integer - integer ke romawi - typescript",
+  "main": "index.ts",
+  "scripts": {
+    "test": "translate-romawi-int"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItPohgero/to-words-rupiah.git"
+  },
+  "keywords": [
+    "romawi",
+    "itpohgero",
+    "int",
+    "wahyu",
+    "agus",
+    "arifin"
+  ],
+  "author": "wahyu agus arifin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItPohgero/to-words-rupiah/issues"
+  },
+  "homepage": "https://github.com/ItPohgero/to-words-rupiah#readme"
+}
