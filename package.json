@@ -1,6 +1,6 @@
 {
   "name": "translate-romawi-int",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "translate angka romawi ke integer - integer ke romawi - typescript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
