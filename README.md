@@ -1,12 +1,13 @@
 # Translate Romawi Int
 
 ### Install dengan perintah berikut
+Install dengan cara berikut
 `npm i translate-romawi-int`
 atau
 `npm install translate-romawi-int@latest`
 
 ### Gunakan function dengan cara
-```typescript-0-index.tsx
+```typescript-8,9-index.tsx
 import React, { FunctionComponent } from "react";
 import { IntToRoman, RomanToInt } from "translate-romawi-int";
 
@@ -17,12 +18,14 @@ const Index: FunctionComponent<IndexProps> = () => {
   const num = IntToRoman(43)
   console.log(romawi, num);
 
-   return ()
+   return (
+    <div>
+      <div>{romawi}</div>
+      <div>{num}</div>
+    </div>
+   )
     
 }
 export default Index;
-
 ```
-
-Saya membuka untuk kontribusi kalian, dan atau jika menginginkan package baru silahkan email ke itpohgero@gmail.com atau kunjungi www.itpohgero.com
-programer desa (wahyu agus arifin)
+created by wahyu agus arifin - owner itpohgero.com
